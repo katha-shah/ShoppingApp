@@ -31,6 +31,8 @@
 ###### Detailed Product Screen
 - On clicking on the particular item card,a new Activity call displays the detailed information of the product.
 - This includes the following tabs on the top - Product Summary Tab, Seller Information Tab, Shipping Information Tab
+![image](https://user-images.githubusercontent.com/24832637/97813847-2c32aa00-1c3e-11eb-8c4e-cd6897a92192.png)
+
 
 ###### Third Party Libraries
  - Volley HTTP requests</br>

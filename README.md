@@ -25,6 +25,8 @@
 
 ###### Product Catalog
 - If the results are available for the search, this page displays them. If no matching result is found, it displays "No resultsfound" instead.
+![image](https://user-images.githubusercontent.com/24832637/97813588-f261a380-1c3d-11eb-901b-959f195f47db.png)
+
 
 ###### Detailed Product Screen
 - On clicking on the particular item card,a new Activity call displays the detailed information of the product.

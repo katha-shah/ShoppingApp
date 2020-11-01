@@ -20,4 +20,22 @@
     • Price Range – Minimum and Maximum Price fields </br>
     • Condition – 3 checkboxes, for New, Used and Unspecified</br>
     • Sort By criteria – 4 options, name Best Match, Price: Highest first, Price +
-                          Shipping: Highest first, Price + Shipping: Lowest first
+                          Shipping: Highest first, Price + Shipping: Lowest first </br>
+![image](https://user-images.githubusercontent.com/24832637/97813311-18864400-1c3c-11eb-93e4-33402db944ad.png)
+
+###### Product Catalog
+- If the results are available for the search, this page displays them. If no matching result is found, it displays "No resultsfound" instead.
+
+###### Detailed Product Screen
+- On clicking on the particular item card,a new Activity call displays the detailed information of the product.
+- This includes the following tabs on the top - Product Summary Tab, Seller Information Tab, Shipping Information Tab
+
+###### Third Party Libraries
+ - Volley HTTP requests</br>
+    • Volley can be helpful with asynchronous http requests to load data. You can also use Volley network ImageView to load photos in Google tab. </br>
+    • You can learn more about them here:
+      • https://developer.android.com/training/volley/index.html
+ -  Picasso </br>
+  • Picasso is a powerful image downloading and caching library for Android. </br>• See:
+      •http://square.github.io/picasso/
+                          

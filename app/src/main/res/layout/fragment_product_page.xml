@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Product_page">
+
+
+    <HorizontalScrollView
+        android:id="@+id/horizontal_img_scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="222dp">
+
+        <LinearLayout
+            android:id="@+id/product_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--        <LinearLayout-->
+            <!--            android:id="@+id/img_linear"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="match_parent">-->
+
+            <!--            <ImageView-->
+            <!--                android:layout_width="300dp"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_marginLeft="30dp"-->
+            <!--                android:background="#c1c1c1"-->
+            <!--                android:scaleType="fitXY"-->
+            <!--                android:src="@drawable/ic_launcher_background"-->
+            <!--                android:id="@+id/picture_one"/>-->
+
+            <!--            <ImageView-->
+            <!--                android:layout_width="300dp"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_marginLeft="30dp"-->
+            <!--                android:background="#c1c1c1"-->
+            <!--                android:src="@drawable/ic_launcher_foreground" />-->
+
+            <!--            <ImageView-->
+            <!--                android:layout_width="300dp"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_marginLeft="30dp"-->
+            <!--                android:background="#c1c1c1"-->
+            <!--                android:src="@drawable/ic_launcher_background" />-->
+
+            <!--            <ImageView-->
+            <!--                android:layout_width="300dp"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_marginLeft="30dp"-->
+            <!--                android:background="#c1c1c1"-->
+            <!--                android:src="@drawable/ic_launcher_foreground" />-->
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+
+    <TextView
+        android:id="@+id/frag_prod_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="250dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/frag_prod_price"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="290dp"
+        android:text="$"
+        android:textColor="#000fff"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/frag_prod_ship"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:textSize="18sp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="290dp"
+        android:text="TextView" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"
+        android:layout_marginTop="315dp"/>
+    <TextView
+        android:id="@+id/product_feat_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="325dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="5dp"/>
+    <TextView
+        android:id="@+id/product_feat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Features"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="325dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+
+</FrameLayout>

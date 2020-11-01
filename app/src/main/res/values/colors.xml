@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#6200EE</color>-->
+    <color name="colorPrimary">#F0F66B40</color>
+<!--    <color name="colorPrimaryDark">#3700B3</color>-->
+    <color name="colorPrimaryDark">#F0F66B40</color>
+    <color name="colorAccent">#1D78C1</color>
+    <color name="errormsg">#ED0B0B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="textcolor">#136BB3</color>
+    <color name = "black">#000000</color>
+    <color name="progressbar">#A9A9A9</color>
+</resources>

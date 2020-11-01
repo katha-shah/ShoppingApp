@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ebay Catalog Search</string>
+    <string-array name="sort_by">
+        <item>Best Match</item>
+        <item>Price: Highest first</item>
+        <item>Price + Shipping: Highest first</item>
+        <item>Price + Shipping: Lowest first</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

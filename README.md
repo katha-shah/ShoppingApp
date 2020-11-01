@@ -11,4 +11,13 @@
  ##### App Icon and Splash Screen 
  
  - The app begins with a welcome screen (see Figure below) which displays the icon of the application
+ ![image](https://user-images.githubusercontent.com/24832637/97813079-ac571080-1c3a-11eb-9a25-c7fba302427b.png)
  
+ ##### Initial Search Form
+ - When you open the app, there will be an initial form displayed on the screen as shown in Figure below.
+ - The initial form contains the some filters as follows. The fields are: </br>
+    • Keyword field – Mandatory </br>
+    • Price Range – Minimum and Maximum Price fields </br>
+    • Condition – 3 checkboxes, for New, Used and Unspecified</br>
+    • Sort By criteria – 4 options, name Best Match, Price: Highest first, Price +
+                          Shipping: Highest first, Price + Shipping: Lowest first
